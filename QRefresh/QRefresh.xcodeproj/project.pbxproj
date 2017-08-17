@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3948AE041F43E63D002B70A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE031F43E63D002B70A8 /* main.m */; };
+		3948AE071F43E63D002B70A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE061F43E63D002B70A8 /* AppDelegate.m */; };
+		3948AE0A1F43E63D002B70A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE091F43E63D002B70A8 /* ViewController.m */; };
+		3948AE0D1F43E63D002B70A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3948AE0B1F43E63D002B70A8 /* Main.storyboard */; };
+		3948AE0F1F43E63D002B70A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3948AE0E1F43E63D002B70A8 /* Assets.xcassets */; };
+		3948AE121F43E63D002B70A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3948AE101F43E63D002B70A8 /* LaunchScreen.storyboard */; };
+		3948AE1D1F43E63D002B70A8 /* QRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE1C1F43E63D002B70A8 /* QRefreshTests.m */; };
+		3948AE281F43E63D002B70A8 /* QRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE271F43E63D002B70A8 /* QRefreshUITests.m */; };
+		3948AE3A1F43E6AD002B70A8 /* QRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE391F43E6AD002B70A8 /* QRefreshView.m */; };
+		3948AE3D1F43E6E8002B70A8 /* UITableView+QRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE3C1F43E6E8002B70A8 /* UITableView+QRefresh.m */; };
+		3948AE431F4428B0002B70A8 /* QCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE421F4428B0002B70A8 /* QCircleProgressView.m */; };
+		3948AE451F4444C6002B70A8 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = 3948AE441F4444C6002B70A8 /* TwitterHeart.json */; };
+		3948AE481F444554002B70A8 /* AnimatorRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948AE471F444554002B70A8 /* AnimatorRefreshView.m */; };
+		3950C1291F45299D00BBF7F9 /* UIView+ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3950C1281F45299D00BBF7F9 /* UIView+ActivityIndicator.m */; };
+		996660ED291A29CA500B5D4C /* libPods-QRefreshUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F6AE91A927E3DA3A440CA2 /* libPods-QRefreshUITests.a */; };
+		A08F34240FD84DDBD7AB558F /* libPods-QRefreshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD19345ECBE04C3D528BF60 /* libPods-QRefreshTests.a */; };
+		A418396CC19768B301DD3484 /* libPods-QRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2628D8D61AD68ADA33D9BDF2 /* libPods-QRefresh.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3948AE191F43E63D002B70A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3948ADF71F43E63D002B70A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3948ADFE1F43E63D002B70A8;
+			remoteInfo = QRefresh;
+		};
+		3948AE241F43E63D002B70A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3948ADF71F43E63D002B70A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3948ADFE1F43E63D002B70A8;
+			remoteInfo = QRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F95E8A4381929B7974CFAE /* Pods-QRefreshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRefreshTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRefreshTests/Pods-QRefreshTests.release.xcconfig"; sourceTree = "<group>"; };
+		149806F8317CCC5A9179F41E /* Pods-QRefreshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRefreshTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRefreshTests/Pods-QRefreshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2628D8D61AD68ADA33D9BDF2 /* libPods-QRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3948ADFF1F43E63D002B70A8 /* QRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3948AE031F43E63D002B70A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3948AE051F43E63D002B70A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3948AE061F43E63D002B70A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3948AE081F43E63D002B70A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3948AE091F43E63D002B70A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3948AE0C1F43E63D002B70A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3948AE0E1F43E63D002B70A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3948AE111F43E63D002B70A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3948AE131F43E63D002B70A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3948AE181F43E63D002B70A8 /* QRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3948AE1C1F43E63D002B70A8 /* QRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRefreshTests.m; sourceTree = "<group>"; };
+		3948AE1E1F43E63D002B70A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3948AE231F43E63D002B70A8 /* QRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3948AE271F43E63D002B70A8 /* QRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRefreshUITests.m; sourceTree = "<group>"; };
+		3948AE291F43E63D002B70A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3948AE381F43E6AD002B70A8 /* QRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRefreshView.h; sourceTree = "<group>"; };
+		3948AE391F43E6AD002B70A8 /* QRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRefreshView.m; sourceTree = "<group>"; };
+		3948AE3B1F43E6E8002B70A8 /* UITableView+QRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+QRefresh.h"; sourceTree = "<group>"; };
+		3948AE3C1F43E6E8002B70A8 /* UITableView+QRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+QRefresh.m"; sourceTree = "<group>"; };
+		3948AE411F4428B0002B70A8 /* QCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCircleProgressView.h; sourceTree = "<group>"; };
+		3948AE421F4428B0002B70A8 /* QCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCircleProgressView.m; sourceTree = "<group>"; };
+		3948AE441F4444C6002B70A8 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		3948AE461F444554002B70A8 /* AnimatorRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatorRefreshView.h; sourceTree = "<group>"; };
+		3948AE471F444554002B70A8 /* AnimatorRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatorRefreshView.m; sourceTree = "<group>"; };
+		3950C1271F45299D00BBF7F9 /* UIView+ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ActivityIndicator.h"; sourceTree = "<group>"; };
+		3950C1281F45299D00BBF7F9 /* UIView+ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ActivityIndicator.m"; sourceTree = "<group>"; };
+		4AF60F70370E75DCF8A32341 /* Pods-QRefreshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRefreshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRefreshUITests/Pods-QRefreshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53F6AE91A927E3DA3A440CA2 /* libPods-QRefreshUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRefreshUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E9B2B3D7AB9174837B0767 /* Pods-QRefreshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRefreshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRefreshUITests/Pods-QRefreshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B44F1C7837AA830B258C8A5 /* Pods-QRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRefresh/Pods-QRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		BDD19345ECBE04C3D528BF60 /* libPods-QRefreshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRefreshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C608501B5FA45923DCDDC936 /* Pods-QRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRefresh/Pods-QRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3948ADFC1F43E63D002B70A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418396CC19768B301DD3484 /* libPods-QRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3948AE151F43E63D002B70A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08F34240FD84DDBD7AB558F /* libPods-QRefreshTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3948AE201F43E63D002B70A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996660ED291A29CA500B5D4C /* libPods-QRefreshUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3948ADF61F43E63D002B70A8 = {
+			isa = PBXGroup;
+			children = (
+				3948AE011F43E63D002B70A8 /* QRefresh */,
+				3948AE1B1F43E63D002B70A8 /* QRefreshTests */,
+				3948AE261F43E63D002B70A8 /* QRefreshUITests */,
+				3948AE001F43E63D002B70A8 /* Products */,
+				C25CC74BAFDAD60C8CBEE5F9 /* Pods */,
+				F0AA9D24DF0FE0346A0CB5AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3948AE001F43E63D002B70A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3948ADFF1F43E63D002B70A8 /* QRefresh.app */,
+				3948AE181F43E63D002B70A8 /* QRefreshTests.xctest */,
+				3948AE231F43E63D002B70A8 /* QRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3948AE011F43E63D002B70A8 /* QRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				3948AE051F43E63D002B70A8 /* AppDelegate.h */,
+				3948AE061F43E63D002B70A8 /* AppDelegate.m */,
+				3948AE081F43E63D002B70A8 /* ViewController.h */,
+				3948AE091F43E63D002B70A8 /* ViewController.m */,
+				3948AE461F444554002B70A8 /* AnimatorRefreshView.h */,
+				3948AE471F444554002B70A8 /* AnimatorRefreshView.m */,
+				3948AE381F43E6AD002B70A8 /* QRefreshView.h */,
+				3948AE391F43E6AD002B70A8 /* QRefreshView.m */,
+				3948AE441F4444C6002B70A8 /* TwitterHeart.json */,
+				3948AE411F4428B0002B70A8 /* QCircleProgressView.h */,
+				3948AE421F4428B0002B70A8 /* QCircleProgressView.m */,
+				3948AE3B1F43E6E8002B70A8 /* UITableView+QRefresh.h */,
+				3948AE3C1F43E6E8002B70A8 /* UITableView+QRefresh.m */,
+				3950C1271F45299D00BBF7F9 /* UIView+ActivityIndicator.h */,
+				3950C1281F45299D00BBF7F9 /* UIView+ActivityIndicator.m */,
+				3948AE0B1F43E63D002B70A8 /* Main.storyboard */,
+				3948AE0E1F43E63D002B70A8 /* Assets.xcassets */,
+				3948AE101F43E63D002B70A8 /* LaunchScreen.storyboard */,
+				3948AE131F43E63D002B70A8 /* Info.plist */,
+				3948AE021F43E63D002B70A8 /* Supporting Files */,
+			);
+			path = QRefresh;
+			sourceTree = "<group>";
+		};
+		3948AE021F43E63D002B70A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3948AE031F43E63D002B70A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3948AE1B1F43E63D002B70A8 /* QRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				3948AE1C1F43E63D002B70A8 /* QRefreshTests.m */,
+				3948AE1E1F43E63D002B70A8 /* Info.plist */,
+			);
+			path = QRefreshTests;
+			sourceTree = "<group>";
+		};
+		3948AE261F43E63D002B70A8 /* QRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3948AE271F43E63D002B70A8 /* QRefreshUITests.m */,
+				3948AE291F43E63D002B70A8 /* Info.plist */,
+			);
+			path = QRefreshUITests;
+			sourceTree = "<group>";
+		};
+		C25CC74BAFDAD60C8CBEE5F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C608501B5FA45923DCDDC936 /* Pods-QRefresh.debug.xcconfig */,
+				9B44F1C7837AA830B258C8A5 /* Pods-QRefresh.release.xcconfig */,
+				149806F8317CCC5A9179F41E /* Pods-QRefreshTests.debug.xcconfig */,
+				12F95E8A4381929B7974CFAE /* Pods-QRefreshTests.release.xcconfig */,
+				4AF60F70370E75DCF8A32341 /* Pods-QRefreshUITests.debug.xcconfig */,
+				61E9B2B3D7AB9174837B0767 /* Pods-QRefreshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0AA9D24DF0FE0346A0CB5AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2628D8D61AD68ADA33D9BDF2 /* libPods-QRefresh.a */,
+				BDD19345ECBE04C3D528BF60 /* libPods-QRefreshTests.a */,
+				53F6AE91A927E3DA3A440CA2 /* libPods-QRefreshUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3948ADFE1F43E63D002B70A8 /* QRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3948AE2C1F43E63D002B70A8 /* Build configuration list for PBXNativeTarget "QRefresh" */;
+			buildPhases = (
+				C8F46E1273BA6FD979EEB6DA /* [CP] Check Pods Manifest.lock */,
+				3948ADFB1F43E63D002B70A8 /* Sources */,
+				3948ADFC1F43E63D002B70A8 /* Frameworks */,
+				3948ADFD1F43E63D002B70A8 /* Resources */,
+				F41E0DD61800C762E7C4056B /* [CP] Embed Pods Frameworks */,
+				793DC640AFF9FFEDB9EC4973 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRefresh;
+			productName = QRefresh;
+			productReference = 3948ADFF1F43E63D002B70A8 /* QRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3948AE171F43E63D002B70A8 /* QRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3948AE2F1F43E63D002B70A8 /* Build configuration list for PBXNativeTarget "QRefreshTests" */;
+			buildPhases = (
+				2E756550AAD9EC3445C94E20 /* [CP] Check Pods Manifest.lock */,
+				3948AE141F43E63D002B70A8 /* Sources */,
+				3948AE151F43E63D002B70A8 /* Frameworks */,
+				3948AE161F43E63D002B70A8 /* Resources */,
+				161C168A0E0F72DC27365372 /* [CP] Embed Pods Frameworks */,
+				08A8610E459FF97DBCA11580 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3948AE1A1F43E63D002B70A8 /* PBXTargetDependency */,
+			);
+			name = QRefreshTests;
+			productName = QRefreshTests;
+			productReference = 3948AE181F43E63D002B70A8 /* QRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3948AE221F43E63D002B70A8 /* QRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3948AE321F43E63D002B70A8 /* Build configuration list for PBXNativeTarget "QRefreshUITests" */;
+			buildPhases = (
+				EFE07D1CCB4286830353F949 /* [CP] Check Pods Manifest.lock */,
+				3948AE1F1F43E63D002B70A8 /* Sources */,
+				3948AE201F43E63D002B70A8 /* Frameworks */,
+				3948AE211F43E63D002B70A8 /* Resources */,
+				A313914AB0884AA0ECA0C3E7 /* [CP] Embed Pods Frameworks */,
+				C0164B8F1C49660B100EFBAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3948AE251F43E63D002B70A8 /* PBXTargetDependency */,
+			);
+			name = QRefreshUITests;
+			productName = QRefreshUITests;
+			productReference = 3948AE231F43E63D002B70A8 /* QRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3948ADF71F43E63D002B70A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LeoQ;
+				TargetAttributes = {
+					3948ADFE1F43E63D002B70A8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B68L4FYQUG;
+						ProvisioningStyle = Automatic;
+					};
+					3948AE171F43E63D002B70A8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B68L4FYQUG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3948ADFE1F43E63D002B70A8;
+					};
+					3948AE221F43E63D002B70A8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B68L4FYQUG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3948ADFE1F43E63D002B70A8;
+					};
+				};
+			};
+			buildConfigurationList = 3948ADFA1F43E63D002B70A8 /* Build configuration list for PBXProject "QRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3948ADF61F43E63D002B70A8;
+			productRefGroup = 3948AE001F43E63D002B70A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3948ADFE1F43E63D002B70A8 /* QRefresh */,
+				3948AE171F43E63D002B70A8 /* QRefreshTests */,
+				3948AE221F43E63D002B70A8 /* QRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3948ADFD1F43E63D002B70A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3948AE451F4444C6002B70A8 /* TwitterHeart.json in Resources */,
+				3948AE121F43E63D002B70A8 /* LaunchScreen.storyboard in Resources */,
+				3948AE0F1F43E63D002B70A8 /* Assets.xcassets in Resources */,
+				3948AE0D1F43E63D002B70A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3948AE161F43E63D002B70A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3948AE211F43E63D002B70A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A8610E459FF97DBCA11580 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRefreshTests/Pods-QRefreshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		161C168A0E0F72DC27365372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRefreshTests/Pods-QRefreshTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E756550AAD9EC3445C94E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		793DC640AFF9FFEDB9EC4973 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRefresh/Pods-QRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A313914AB0884AA0ECA0C3E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRefreshUITests/Pods-QRefreshUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0164B8F1C49660B100EFBAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRefreshUITests/Pods-QRefreshUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F46E1273BA6FD979EEB6DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE07D1CCB4286830353F949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F41E0DD61800C762E7C4056B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRefresh/Pods-QRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3948ADFB1F43E63D002B70A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3948AE3D1F43E6E8002B70A8 /* UITableView+QRefresh.m in Sources */,
+				3948AE3A1F43E6AD002B70A8 /* QRefreshView.m in Sources */,
+				3948AE431F4428B0002B70A8 /* QCircleProgressView.m in Sources */,
+				3950C1291F45299D00BBF7F9 /* UIView+ActivityIndicator.m in Sources */,
+				3948AE0A1F43E63D002B70A8 /* ViewController.m in Sources */,
+				3948AE071F43E63D002B70A8 /* AppDelegate.m in Sources */,
+				3948AE481F444554002B70A8 /* AnimatorRefreshView.m in Sources */,
+				3948AE041F43E63D002B70A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3948AE141F43E63D002B70A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3948AE1D1F43E63D002B70A8 /* QRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3948AE1F1F43E63D002B70A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3948AE281F43E63D002B70A8 /* QRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3948AE1A1F43E63D002B70A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3948ADFE1F43E63D002B70A8 /* QRefresh */;
+			targetProxy = 3948AE191F43E63D002B70A8 /* PBXContainerItemProxy */;
+		};
+		3948AE251F43E63D002B70A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3948ADFE1F43E63D002B70A8 /* QRefresh */;
+			targetProxy = 3948AE241F43E63D002B70A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3948AE0B1F43E63D002B70A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3948AE0C1F43E63D002B70A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3948AE101F43E63D002B70A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3948AE111F43E63D002B70A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3948AE2A1F43E63D002B70A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3948AE2B1F43E63D002B70A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3948AE2D1F43E63D002B70A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C608501B5FA45923DCDDC936 /* Pods-QRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B68L4FYQUG;
+				INFOPLIST_FILE = QRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeoQ.QRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3948AE2E1F43E63D002B70A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B44F1C7837AA830B258C8A5 /* Pods-QRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B68L4FYQUG;
+				INFOPLIST_FILE = QRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeoQ.QRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3948AE301F43E63D002B70A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149806F8317CCC5A9179F41E /* Pods-QRefreshTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B68L4FYQUG;
+				INFOPLIST_FILE = QRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeoQ.QRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRefresh.app/QRefresh";
+			};
+			name = Debug;
+		};
+		3948AE311F43E63D002B70A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F95E8A4381929B7974CFAE /* Pods-QRefreshTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B68L4FYQUG;
+				INFOPLIST_FILE = QRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeoQ.QRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRefresh.app/QRefresh";
+			};
+			name = Release;
+		};
+		3948AE331F43E63D002B70A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF60F70370E75DCF8A32341 /* Pods-QRefreshUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B68L4FYQUG;
+				INFOPLIST_FILE = QRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeoQ.QRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QRefresh;
+			};
+			name = Debug;
+		};
+		3948AE341F43E63D002B70A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E9B2B3D7AB9174837B0767 /* Pods-QRefreshUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B68L4FYQUG;
+				INFOPLIST_FILE = QRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeoQ.QRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3948ADFA1F43E63D002B70A8 /* Build configuration list for PBXProject "QRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3948AE2A1F43E63D002B70A8 /* Debug */,
+				3948AE2B1F43E63D002B70A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3948AE2C1F43E63D002B70A8 /* Build configuration list for PBXNativeTarget "QRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3948AE2D1F43E63D002B70A8 /* Debug */,
+				3948AE2E1F43E63D002B70A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3948AE2F1F43E63D002B70A8 /* Build configuration list for PBXNativeTarget "QRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3948AE301F43E63D002B70A8 /* Debug */,
+				3948AE311F43E63D002B70A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3948AE321F43E63D002B70A8 /* Build configuration list for PBXNativeTarget "QRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3948AE331F43E63D002B70A8 /* Debug */,
+				3948AE341F43E63D002B70A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3948ADF71F43E63D002B70A8 /* Project object */;
+}
