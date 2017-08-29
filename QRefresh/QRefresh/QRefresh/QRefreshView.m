@@ -182,6 +182,12 @@
         }break;
         case QRefreshViewStatusNeedRefresh:{
             if(!self.actView.isAnimating){
+                
+                UIImpactFeedbackGenerator *generator = [[UIImpactFeedbackGenerator alloc] initWithStyle: UIImpactFeedbackStyleLight];
+                [generator prepare];
+                [generator impactOccurred];
+                
+                
                 [self.actView startAnimating];
                 [UIView animateWithDuration:0.25 animations:^{
                     self.progressView.alpha = 0.f;

@@ -21,18 +21,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self tableView];
-    CGFloat w = self.view.frame.size.width/6;
-    CGFloat h = self.view.frame.size.height/10;
-    for (int i = 0; i < 10; i++) {
-        for (int j = 0; j < 6; j ++) {
-            UIButton *btn  = [UIButton buttonWithType:UIButtonTypeSystem];
-            btn.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/255.0 green:(arc4random()%255)/255.0 blue:(arc4random()%255)/255.0 alpha:1];
-            [self.view addSubview:btn];
-            btn.frame = CGRectMake(w*j, h*i, w, h);
-            [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-        }
-    }
+    [self tableView];
+//    CGFloat w = self.view.frame.size.width/6;
+//    CGFloat h = self.view.frame.size.height/10;
+//    for (int i = 0; i < 10; i++) {
+//        for (int j = 0; j < 6; j ++) {
+//            UIButton *btn  = [UIButton buttonWithType:UIButtonTypeSystem];
+//            btn.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/255.0 green:(arc4random()%255)/255.0 blue:(arc4random()%255)/255.0 alpha:1];
+//            [self.view addSubview:btn];
+//            btn.frame = CGRectMake(w*j, h*i, w, h);
+//            [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+//        }
+//    }
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -57,9 +57,9 @@
 //        tableView.backgroundColor = [UIColor colorWithRed:230 green:230 blue:230 alpha:1];
         tableView.delegate = self;
         tableView.dataSource = self;
-        tableView.clipsToBounds = NO;
+        tableView.clipsToBounds = YES;
         
-        tableView.qRefreshView = [[AnimatorRefreshView alloc] initWithRefreshAction:^{
+        tableView.qRefreshView = [[QRefreshView alloc] initWithRefreshAction:^{
             __weak __typeof(self)weakSelf = self;
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [weakSelf.tableView.qRefreshView endRefreshing];
