@@ -1,5 +1,5 @@
 # QRefresh
 ##default style
-![image](https://github.com/qhlonger/Calendar/blob/master/defaultSstyle.gif)   
+![image](https://github.com/qhlonger/QRefresh/blob/master/defaultStyle.gif)   
 ##with lottie
-![image](https://github.com/qhlonger/Calendar/blob/master/withLottie.gif)   
+![image](https://github.com/qhlonger/QRefresh/blob/master/withLottie.gif)   
